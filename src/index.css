@@ -5,9 +5,301 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #23a6d5, #23d5ab);
+  color: #555555;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button:focus{
+  outline:none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper{
+  min-height: 130vh;
+}
+
+.list-group-item{
+  background: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.list-group-item:first-child, .list-group-item:last-child{
+  border-radius: 5px;
+}
+
+.pagination{
+  margin-bottom: 0;
+}
+
+.page-link{
+  color: #555555;
+  background: white;
+}
+
+.page-link:focus{
+  box-shadow: none;
+}
+
+.page-link:hover{
+  color: inherit;
+}
+
+.page-item.active .page-link{
+  border-color: grey;
+  background: #555555;
+}
+
+.page-item.disabled .page-link{
+  color: lightgray;
+}
+
+.nav-link{
+  margin-left: 1em;
+}
+
+.home-header h1{
+  font-size: 3em;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  padding: 2em;
+}
+
+#home-main .card{
+  background: transparent;
+  border: solid white 1px;
+  margin-left: 1em;
+  transition: 0.3s;
+}
+
+#home-main .card:first-child{
+  margin-left: 100px;
+
+}
+
+#home-main .card-title,#home-main .card-text{
+  color: white;
+  transition: 0.3s;
+}
+
+#home-main .card:hover .card-title, #home-main .card:hover .card-text{
+  color: #555555;
+}
+
+#home-main .card:hover{
+  background: white;
+}
+
+.tag{
+  background: cornflowerblue;
+  color: white;
+  margin-left: 0.5em;
+  height: 25px;
+  line-height: 1em;
+  border: solid white 1px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.tag:hover{
+  transform: scale(1.1);
+}
+
+.tag:active{
+  transform: scale(1);
+}
+
+.tag-genre{
+  background: #555555;
+}
+
+.tag-javascript{
+  background: #F0DB4F;
+}
+
+.tag-react{
+  background: #61dbfb;
+}
+
+.tag-css{
+  background: #2965f1;
+  text-transform: uppercase;
+}
+
+.tag-web{
+  background: lightcoral;
+}
+
+.tag-node{
+  background: #68A063;
+}
+
+.tag-python{
+  background: #306998;
+}
+
+.tag-java{
+  background: #ED8B00;
+}
+
+.tag-markdown{
+  background: powderblue;
+}
+
+.icons{
+  padding: 5px 5px 5px 0;
+}
+
+.filter-bar-closed{
+  height: 0;
+  padding: 0;
+  border: none;
+  transition: 0.3s;
+}
+
+.filter-bar-opened{
+  height: 3em;
+  transition: 0.3s;
+  margin-bottom: 0.5em;
+}
+
+.tag-filter{
+  animation: fadein 0.3s;
+}
+
+@keyframes fadein {
+  from {transform: scale(0.1);}
+  to {transform: scale(1);}
+}
+
+.sidebar-genre{
+  background: white;
+  border-color: #555555;
+  color: #555555;
+  margin: 1px 0;
+  transition: 0.3s;
+}
+
+.sidebar-genre-selected{
+  background: #555555;
+  color: white;
+  border-color: white;
+}
+
+.sidebar-tag{
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+
+.blog-list-item{
+  padding-bottom: 0;
+  border-bottom: solid lightgrey 2px;
+}
+
+.blog-list-item-content{
+  color: grey;
+}
+
+.detail-labels{
+  margin-right: 2em;
+}
+
+
+.footer{
+  text-align: center;
+  color: white;
+  height: 20px;
+}
+
+.tag-blog-change{
+  margin-left: 0;
+  background: white;
+  height: 25px;
+  margin-top: 2em;
+  border: grey solid 1px;
+  color: grey;
+  padding: 3px 5px;
+}
+
+.tag-blog-change:hover{
+  background: grey;
+  border-color: white;
+  color: white;
+}
+
+.comments-area{
+  margin-top: 0.5em;
+}
+
+.comment-title{
+  padding-bottom: 0.5em;
+  margin-bottom: 0;
+  border-bottom: lightgray solid 2px;
+}
+
+.comment{
+  padding-top: 1em;
+  border-bottom: lightgray solid 1px;
+}
+
+.comment-input{
+  padding: 1em 0;
+  border-bottom: lightgray solid 2px;
+}
+
+.button-detail{
+  background: white;
+  height: 25px;
+  padding: 3px 5px;
+  color:  grey;
+  border: solid grey 1px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.button-detail:hover{
+  color: white;
+  background: grey;
+}
+
+.jumbotron{
+  min-height: 80vh;
+}
+
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.col-3{
+  padding: 0;
+}
+
+.col-sm-3{
+  padding-right: 0;
+}
+
+.dp-appear{
+  opacity: 0.01;
+}
+
+dp-appear-active{
+  opacity: 1;
+  transition: all 5000ms linear;
 }
