@@ -28,15 +28,6 @@ class Comments extends Component {
         this.setState({comment})
     };
 
-    handleCommentSubmit = () => {
-        this.handleCommentInputStatus();
-        const {comment} = this.state;
-        setTimeout(() => {
-            comment.content = "";
-            comment.username = "";
-        }, 300);
-    };
-
     render() {
         const {comments} = this.props;
         return (
@@ -74,7 +65,7 @@ class Comments extends Component {
                                     className="tag button-detail"
                                     onClick={() => {
                                         this.props.onCommentSubmit(this.state.comment);
-                                        this.handleCommentSubmit()
+                                        this.handleCommentInputStatus()
                                     }}>评论
                             </button>
                         </Form>

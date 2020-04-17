@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5286d85d-5b9b-4bb0-985d-17c555be7020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/blog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/blogBody.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/blogDetail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/blogList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/comments.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/filterBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/notFound.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/paginate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pagination.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/scrollToTop.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sideBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/spinner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tools.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/blogService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/httpService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/logService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/comments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comments.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +73,7 @@
       <workItem from="1586440001794" duration="12505000" />
       <workItem from="1586616666606" duration="1008000" />
       <workItem from="1586695330284" duration="128000" />
-      <workItem from="1586919049158" duration="51380000" />
+      <workItem from="1586919049158" duration="52507000" />
     </task>
     <servers />
   </component>
@@ -147,12 +112,12 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="132" y="177" width="401" height="557" key="dock-window-1/1440.71.1024.745/0.23.1440.803@0.23.1440.803" timestamp="1586265045791" />
-    <state x="16" y="149" width="670" height="679" key="search.everywhere.popup" timestamp="1587093065598">
+    <state x="16" y="149" width="670" height="679" key="search.everywhere.popup" timestamp="1587095696334">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="16" y="149" width="670" height="674" key="search.everywhere.popup/0.23.1440.800@0.23.1440.800" timestamp="1586173692604" />
     <state x="16" y="150" width="670" height="676" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1586400215153" />
-    <state x="16" y="149" width="670" height="679" key="search.everywhere.popup/0.23.1440.805@0.23.1440.805" timestamp="1587093065598" />
+    <state x="16" y="149" width="670" height="679" key="search.everywhere.popup/0.23.1440.805@0.23.1440.805" timestamp="1587095696334" />
     <state x="16" y="149" width="670" height="681" key="search.everywhere.popup/0.23.1440.807@0.23.1440.807" timestamp="1586493628509" />
     <state x="16" y="160" width="670" height="740" key="search.everywhere.popup/1440.71.1024.693/0.23.1440.877@0.23.1440.877" timestamp="1586328147426" />
     <state x="16" y="149" width="670" height="671" key="search.everywhere.popup/1440.71.1024.745/0.23.1440.797@0.23.1440.797" timestamp="1585834831992" />
