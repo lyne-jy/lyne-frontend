@@ -5,7 +5,7 @@ axios.interceptors.response.use(null, error => {
     const expectedError = error.response && error.response.status >= 400 && error.response.status <= 500;
 
     if (!expectedError) {
-        toast.error("An unexpectedError occurred.");
+        toast.error("发生了一个意料之外的错误。");
     }
 
     return Promise.reject(error);

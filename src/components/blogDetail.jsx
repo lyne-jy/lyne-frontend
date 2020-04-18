@@ -3,7 +3,7 @@ import {getBlog} from "../services/blogService";
 import Comments from "./comments";
 import BlogBody from "./blogBody";
 import Spinner from "./spinner";
-import {postComment} from "../services/blogService";
+import {postComment} from "../services/commentService";
 import {toast} from "react-toastify"
 
 class BlogDetail extends Component {
@@ -46,12 +46,13 @@ class BlogDetail extends Component {
         const originalBlog = {...this.state.blog};
         const {blog} = this.state;
         try {
+            comment.date = new Date(new Date().getTime() + 8 * 60 * 60 * 1000).toJSON();
             await postComment(blog._id, comment);
             blog.comments.push({...comment});
             this.setState({blog});
-            toast.success("评论已发布。", {position: "top-center", autoClose: 1500})
+            toast("评论已发布。")
         } catch (e) {
-            toast.warn('发布评论时出现错误。', {position: "top-center", autoClose: 1500});
+            toast.error('发布评论时出现错误。');
             this.setState({blog: originalBlog})
         }
     };

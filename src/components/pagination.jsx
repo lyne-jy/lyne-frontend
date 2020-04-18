@@ -4,12 +4,12 @@ import _ from "lodash"
 const Pagination = ({itemsCount, itemsPerPage, currentPage, onPageChange}) => {
     const pagesCount = Math.ceil(itemsCount / itemsPerPage);
     const pages = _.range(1, pagesCount + 1);
-    if (pages.length <= 1) return null;
+    if (pages.length <= 1) return <p className="text-center pt-2 text-muted">没有更多了，康康其他的</p>;
 
     return (
         <div className="list-group-item">
             <nav>
-                <ul className="pagination">
+                <ul className="pagination d-flex justify-content-center">
                     <li className={currentPage === 1 ? "page-item disabled" : "page-item"}>
                         <button className="page-link"
                                 onClick={() => onPageChange(currentPage - 1)}

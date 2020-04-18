@@ -7,13 +7,13 @@ class Comments extends Component {
         comment: {
             username: "",
             content: "",
-            date: new Date(+ new Date() + 8 * 3600 * 1000).toJSON()
+            date: ""
         }
     };
 
     handleCommentInputStatus = () => {
-        const commentInput = !this.state.commentInput;
-        this.setState({commentInput})
+        const {commentInput} = this.state;
+        this.setState({commentInput: !commentInput});
     };
 
     handleUsernameChange = (event) => {
@@ -25,6 +25,13 @@ class Comments extends Component {
     handleContentChange = (event) => {
         const {comment} = this.state;
         comment.content = event.target.value;
+        this.setState({comment})
+    };
+
+    clearComment = () => {
+        const comment = {...this.state.comment};
+        comment.content = "";
+        comment.username = "";
         this.setState({comment})
     };
 
@@ -42,7 +49,7 @@ class Comments extends Component {
                     <Collapse isOpen={this.state.commentInput}>
                         <Form className="comment-input">
                             <FormGroup>
-                                <Label>Username</Label>
+                                <Label>昵称</Label>
                                 <Input type="text"
                                        name="username"
                                        id="username"
@@ -52,7 +59,7 @@ class Comments extends Component {
                                 />
                             </FormGroup>
                             <FormGroup>
-                                <Label>Comment</Label>
+                                <Label>内容</Label>
                                 <Input type="textarea"
                                        name="comment"
                                        id="comment"
@@ -65,7 +72,8 @@ class Comments extends Component {
                                     className="tag button-detail"
                                     onClick={() => {
                                         this.props.onCommentSubmit(this.state.comment);
-                                        this.handleCommentInputStatus()
+                                        this.handleCommentInputStatus();
+                                        this.clearComment();
                                     }}>评论
                             </button>
                         </Form>

@@ -90,7 +90,7 @@ class Blog extends Component {
         return (
             <div className="container">
                 <div id="blog-main" className="row">
-                    <div className="col list-group">
+                    <div className="col list-group blog-list-area">
                         <FilterBar search={search}
                                    onTagDelete={this.handleTagDelete}
                         />
@@ -105,7 +105,7 @@ class Blog extends Component {
                                     onPageChange={this.handlePageChange}
                         />
                     </div>
-                    <div className="col-sm-3">
+                    <div className="col-sm-3 sidebar-area">
                         <SideBar tags={tags}
                                  genres={genres}
                                  search={search}

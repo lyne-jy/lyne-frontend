@@ -16,7 +16,7 @@ const FilterBar = (props) => {
                             key={item.value}
                             onClick={() => props.onTagDelete(item)}
                     >
-                        {`${item.key}: ${item.value}`}
+                        {`${item.value}`}
                     </button>))}
             </div>
         </div>

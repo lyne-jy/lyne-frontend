@@ -1,29 +1,20 @@
 import React, {Component} from "react";
 import { css } from "@emotion/core";
-import Loader from "react-spinners/HashLoader";
+import Loader from "react-spinners/ScaleLoader";
 
 const override = css`
   display: block;
-  margin: 25vh auto;
-  border-color: white;
+  margin: 30vh auto;
 `;
 
 class Spinner extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            loading: true
-        };
-    }
-
     render() {
         return (
-            <div className="sweet-loading">
+            <div className="d-flex justify-content-center">
                 <Loader
                     css={override}
                     size={150}
-                    color={"white"}
-                    loading={this.state.loading}
+                    loading={true}
                 />
             </div>
         );

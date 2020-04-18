@@ -10,7 +10,7 @@ const SideBar = (props) => {
                     <button key={"all"}
                             className={`tag tag-genre sidebar-genre ${search.genre? "": "sidebar-genre-selected"}`}
                             onClick={() => props.onGenreChange("")}
-                    >All</button>
+                    >全部</button>
                     {genres.map(genre =>
                         <button key={genre.title}
                                 className={`tag tag-genre sidebar-genre ${search.genre === genre.title? "sidebar-genre-selected": ""}`}

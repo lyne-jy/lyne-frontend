@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to right, #23a6d5, #23d5ab);
+  background: white;
   color: #555555;
 }
 
@@ -16,6 +16,11 @@ code {
 
 button:focus{
   outline:none;
+}
+
+.btn:focus{
+  outline: none;
+  box-shadow: none;
 }
 
 a{
@@ -29,17 +34,17 @@ a:hover{
 }
 
 .wrapper{
+  font-family: "Georgia Pro", serif;
   min-height: 130vh;
 }
 
 .list-group-item{
   background: white;
   border: none;
-  border-radius: 5px;
 }
 
 .list-group-item:first-child, .list-group-item:last-child{
-  border-radius: 5px;
+  border-radius: 0;
 }
 
 .pagination{
@@ -47,8 +52,11 @@ a:hover{
 }
 
 .page-link{
+  padding: 6px 10px;
+  border: none;
   color: #555555;
   background: white;
+  transition: 0.3s;
 }
 
 .page-link:focus{
@@ -56,7 +64,9 @@ a:hover{
 }
 
 .page-link:hover{
-  color: inherit;
+  border-color: darkgrey;
+  color: white;
+  background: darkgrey;
 }
 
 .page-item.active .page-link{
@@ -74,7 +84,7 @@ a:hover{
 
 .home-header h1{
   font-size: 3em;
-  color: white;
+  color: #555555;
   font-weight: bold;
   text-align: left;
   padding: 2em;
@@ -82,36 +92,36 @@ a:hover{
 
 #home-main .card{
   background: transparent;
-  border: solid white 1px;
+  border: solid #555555 1px;
+  border-radius: 5px;
   margin-left: 1em;
   transition: 0.3s;
 }
 
 #home-main .card:first-child{
   margin-left: 100px;
-
 }
 
 #home-main .card-title,#home-main .card-text{
-  color: white;
+  color: #555555;
   transition: 0.3s;
 }
 
 #home-main .card:hover .card-title, #home-main .card:hover .card-text{
-  color: #555555;
+  color: white;
 }
 
 #home-main .card:hover{
-  background: white;
+  background: #555555;
 }
 
 .tag{
-  background: cornflowerblue;
-  color: white;
+  background: white;
+  color: #555555;
   margin-left: 0.5em;
   height: 25px;
   line-height: 1em;
-  border: solid white 1px;
+  border: #555555 solid 1px;
   border-radius: 5px;
   text-transform: capitalize;
   transition: 0.3s;
@@ -119,54 +129,20 @@ a:hover{
 
 .tag:hover{
   transform: scale(1.1);
+  color: white;
+  background: #555555;
 }
 
 .tag:active{
   transform: scale(1);
 }
 
-.tag-genre{
-  background: #555555;
-}
-
-.tag-javascript{
-  background: #F0DB4F;
-}
-
-.tag-react{
-  background: #61dbfb;
-}
-
-.tag-css{
-  background: #2965f1;
-  text-transform: uppercase;
-}
-
-.tag-web{
-  background: lightcoral;
-}
-
-.tag-node{
-  background: #68A063;
-}
-
-.tag-python{
-  background: #306998;
-}
-
-.tag-java{
-  background: #ED8B00;
-}
-
-.tag-markdown{
-  background: powderblue;
-}
-
 .icons{
-  padding: 5px 5px 5px 0;
+  padding: 4px 5px 5px 0;
 }
 
 .filter-bar-closed{
+  color: white;
   height: 0;
   padding: 0;
   border: none;
@@ -174,12 +150,15 @@ a:hover{
 }
 
 .filter-bar-opened{
-  height: 3em;
+  margin-top: 0.5em;
+  padding: 0.5em 0;
   transition: 0.3s;
-  margin-bottom: 0.5em;
+  border-bottom: lightgray 1px solid;
 }
 
 .tag-filter{
+  background: #555555;
+  color: white;
   animation: fadein 0.3s;
 }
 
@@ -192,27 +171,29 @@ a:hover{
   background: white;
   border-color: #555555;
   color: #555555;
-  margin: 1px 0;
+  margin: 2px 0;
   transition: 0.3s;
 }
 
 .sidebar-genre-selected{
   background: #555555;
   color: white;
-  border-color: white;
+  border-color: #555555;
 }
 
 .sidebar-tag{
+  margin-top: 4px;
   margin-left: 0;
   margin-right: 0.5em;
 }
 
 .blog-list-item{
   padding-bottom: 0;
-  border-bottom: solid lightgrey 2px;
+  border-bottom: solid lightgrey 1px;
 }
 
 .blog-list-item-content{
+  margin-bottom: 0.5em;
   color: grey;
 }
 
@@ -220,26 +201,23 @@ a:hover{
   margin-right: 2em;
 }
 
-
 .footer{
   text-align: center;
-  color: white;
   height: 20px;
 }
 
 .tag-blog-change{
   margin-left: 0;
   background: white;
-  height: 25px;
+  height: 28px;
   margin-top: 2em;
-  border: grey solid 1px;
-  color: grey;
+  border: #555555 solid 1px;
+  color: #555555;
   padding: 3px 5px;
 }
 
 .tag-blog-change:hover{
-  background: grey;
-  border-color: white;
+  background: #555555;
   color: white;
 }
 
@@ -265,17 +243,17 @@ a:hover{
 
 .button-detail{
   background: white;
-  height: 25px;
+  height: 28px;
   padding: 3px 5px;
-  color:  grey;
-  border: solid grey 1px;
+  color:  #555555;
+  border: solid #555555 1px;
   border-radius: 5px;
   margin: 0;
 }
 
 .button-detail:hover{
   color: white;
-  background: grey;
+  background: #555555;
 }
 
 .jumbotron{
@@ -287,19 +265,191 @@ a:hover{
   margin-left: 0;
 }
 
+.col{
+  padding: 0;
+}
+
 .col-3{
   padding: 0;
 }
 
 .col-sm-3{
+  padding-left: 0;
   padding-right: 0;
 }
 
-.dp-appear{
-  opacity: 0.01;
+.jumbotron{
+  background: white;
+  padding-top: 2em;
 }
 
-dp-appear-active{
-  opacity: 1;
-  transition: all 5000ms linear;
+.tags-title{
+  margin-bottom: 0;
+}
+
+.blog-list-item-label{
+  margin-bottom: 0.5em;
+}
+
+#blog-main{
+  background: white;
+}
+
+/*.sidebar-area{*/
+/*  margin-left: 10px;*/
+/*  border-left: lightgray solid 1px;*/
+/*}*/
+
+.navbar{
+  border-bottom: solid lightgray 1px;
+}
+
+.container{
+  margin-top: 1em
+}
+
+.blog-list-area{
+  padding: 0 1.5em;
+  border: lightgray solid 1px;
+  border-radius: 5px;
+}
+
+.blog-list-area .blog-list-item{
+  padding: 0.75em 0;
+}
+
+.card{
+  border-color: lightgray;
+}
+
+.sidebar-area{
+  margin-left: 1em;
+  border: lightgray solid 1px;
+  border-radius: 5px;
+}
+
+.sidebar-area .list-group-item:first-child{
+  border-radius: 5px;
+}
+
+.navbar-brand{
+  font-family: "Times New Roman";
+  font-weight: bold;
+  padding: 0 0.4em;
+  background: black;
+  color: white;
+}
+
+.detail-label-bar{
+  display: flex;
+}
+
+.about-me-text{
+  min-height: 320px;
+  font-family: "Courier New", Serif;
+  font-size: 3em;
+  color: #555555;
+  font-weight: bold;
+  text-align: left;
+  padding: 2em;
+}
+
+a-icons a{
+  background: #555555;
+}
+
+.contact-info-area{
+  margin-top: 10vh;
+  padding: 3em;
+}
+
+.contact-info-area p{
+  padding: 0.5em;
+  margin-bottom: 0;
+}
+
+.socialmedia-info-area{
+  padding: 3em;
+}
+
+.socialmedia-info-area p{
+  padding: 0.5em;
+  margin-bottom: 0;
+}
+
+.netease g{
+  fill: #555555;
+}
+
+.netease{
+  height: 40px;
+  width: 40px;
+}
+
+.bilibili{
+  height: 40px;
+  width: 40px;
+}
+
+.bilibili g{
+  fill: #212529;
+}
+
+.socialmedia{
+  padding: 0.5em;
+}
+
+.socialmedia-text{
+  width: 90px;
+  padding: 0.4em 0.5em !important;
+  margin-left: 0.5em;
+  border: #555555 solid 2px;
+}
+
+.constructing-text{
+  font-size: 3em;
+  color: #555555;
+  text-align: left;
+  padding: 2em;
+}
+
+.form-control:focus{
+  border-color: #555555;
+  box-shadow: none;
+}
+
+.about-me-modal{
+  font-family: Georgia, Serif;
+}
+
+.toastify{
+  font-family: Georgia, Serif;
+  border: lightgray solid 1px;
+}
+
+@media screen and (max-width: 800px) {
+  #home-main .card:first-child{
+    margin: 1em;
+  }
+
+  #home-main .card{
+    margin: 1em;
+  }
+
+  .home-header h1{
+    font-size: 38px;
+    padding: 20px
+  }
+
+  .sidebar-area{
+    margin-left: 0;
+  }
+
+  .detail-label-bar{
+    display: block;
+  }
+
+  .about-me-text {
+    height: 300px;
+  }
 }

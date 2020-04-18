@@ -1,17 +1,9 @@
 import React from 'react';
-import Typist from "react-typist";
 import {Link} from "react-router-dom";
 import "react-typist/dist/Typist.css"
 
 
 const Home = () => {
-    const cursor = {
-        show: true,
-        blink: true,
-        element: '_',
-        hideWhenDone: false,
-        hideWhenDoneDelay: 1000,
-    };
     return (
         <div id="home-main">
             <div className="home-header">

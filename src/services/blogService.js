@@ -1,6 +1,6 @@
 import http from "./httpService";
 
-const url = process.env.REACT_APP_API_URL;
+const url = process.env.REACT_APP_API_URL + "/blogs/";
 
 export function getBlogs() {
     const blogs = http.get(url);
@@ -27,6 +27,3 @@ export function getTags(blogs) {
     return tagsObj;
 }
 
-export function postComment(id, comment) {
-    return http.post(url+id, comment)
-}

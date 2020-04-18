@@ -5,18 +5,18 @@ import {Link} from "react-router-dom";
 const BlogBody = (props) => {
     const {title, date, genre, tags, body, lastBlog, nextBlog} = props.blog;
     return (
-        <div className="card">
+        <div className="card" id="blog-body">
             <div className="card-body">
                 <h1 className="card-title">{title}</h1>
-                <div className="d-flex justify-content-start">
+                <div className="detail-label-bar">
                     <div className="d-flex detail-labels">
                         <i className="fa fa-clock-o icons"/>
-                        <p>Date:</p>
+                        <p>时间:</p>
                         <p className="ml-1">{date.slice(0, 10)}</p>
                     </div>
                     <div className="d-flex detail-labels">
                         <i className="fa fa-list icons"/>
-                        <p>Genre:</p>
+                        <p>分类:</p>
                         <button className="tag tag-genre"
                                 onClick={() => props.history.push({
                                     pathname: '/blog',
@@ -26,7 +26,7 @@ const BlogBody = (props) => {
                     </div>
                     <div className="d-flex detail-labels">
                         <i className="fa fa-tags icons"/>
-                        <p>Tags:</p>
+                        <p>标签:</p>
                         {tags.map(tag =>
                             <button className={`tag tag-${tag}`}
                                     key={tag}
