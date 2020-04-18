@@ -36,7 +36,7 @@ class AboutMe extends Component {
         const cursor = {
             show: true,
             blink: true,
-            element: '_',
+            element: '｜',
             hideWhenDone: false,
         };
         const {showMessage} = this.state;
@@ -50,8 +50,8 @@ class AboutMe extends Component {
                                 stdTypingDelay={50}>
                             <span>我，是一个CS准新生。</span>
                             <Typist.Backspace count={6} delay={500}/>
-                            <span>精通Hello World的程序员</span>
-                            <Typist.Backspace count={17} delay={500}/>
+                            <span>精通Hello World的程序员。</span>
+                            <Typist.Backspace count={18} delay={500}/>
                             <span>刚开始学前端的鶸。</span>
                             <Typist.Backspace count={9} delay={500}/>
                             <span>臭打游戏的。</span>

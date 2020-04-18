@@ -34,7 +34,7 @@ a:hover{
 }
 
 .wrapper{
-  font-family: "Georgia Pro", serif;
+  font-family: Times, Serif;
   min-height: 130vh;
 }
 
@@ -209,7 +209,7 @@ a:hover{
 .tag-blog-change{
   margin-left: 0;
   background: white;
-  height: 28px;
+  height: 25px;
   margin-top: 2em;
   border: #555555 solid 1px;
   color: #555555;
@@ -346,7 +346,6 @@ a:hover{
 
 .about-me-text{
   min-height: 320px;
-  font-family: "Courier New", Serif;
   font-size: 3em;
   color: #555555;
   font-weight: bold;
@@ -419,11 +418,11 @@ a-icons a{
 }
 
 .about-me-modal{
-  font-family: Georgia, Serif;
+  font-family: Times, Serif;
 }
 
 .toastify{
-  font-family: Georgia, Serif;
+  font-family: Times, Serif;
   border: lightgray solid 1px;
 }
 
@@ -437,7 +436,7 @@ a-icons a{
   }
 
   .home-header h1{
-    font-size: 38px;
+    font-size: 35px;
     padding: 20px
   }
 
@@ -450,6 +449,15 @@ a-icons a{
   }
 
   .about-me-text {
-    height: 300px;
+    text-align: center;
+    font-size: 36px;
+    padding: 1em;
+    height: 200px;
   }
+
+  .constructing-text{
+    padding: 1em;
+    font-size: 36px;
+  }
+
 }

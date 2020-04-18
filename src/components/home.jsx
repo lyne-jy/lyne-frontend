@@ -8,7 +8,7 @@ const Home = () => {
         <div id="home-main">
             <div className="home-header">
                 <h1>
-                    欢迎！ <br/>这里是Lyne的个人网站， <br/>来发现有趣的东西吧。
+                    欢迎！<br/>这里是Lyne的个人网站， <br/>来发现有趣的东西吧。
                 </h1>
                 {/*<Typist className="p-4" cursor={cursor} avgTypingDelay={100} stdTypingDelay={60}>*/}
                 {/*    This is Lyne's personal website, now let's find something interesting.*/}
