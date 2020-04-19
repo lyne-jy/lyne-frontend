@@ -50,17 +50,9 @@ class AboutMe extends Component {
                                 stdTypingDelay={50}>
                             <span>我，是一个CS准新生。</span>
                             <Typist.Backspace count={6} delay={500}/>
-                            <span>精通Hello World的程序员。</span>
-                            <Typist.Backspace count={18} delay={500}/>
-                            <span>刚开始学前端的鶸。</span>
-                            <Typist.Backspace count={9} delay={500}/>
-                            <span>臭打游戏的。</span>
-                            <Typist.Backspace count={6} delay={500}/>
-                            <span>终极音乐爱好者。</span>
+                            <span>开始学前端的鶸。</span>
                             <Typist.Backspace count={8} delay={500}/>
-                            <span>从来不拍人的摄影爱好者。</span>
-                            <Typist.Backspace count={12} delay={500}/>
-                            <Typist.Delay ms={1000} />
+                            <Typist.Delay ms={2000} />
                             <span>帅比。</span>
                             <Typist.Backspace count={12} delay={2000}/>
                             <span>嘻嘻</span>
