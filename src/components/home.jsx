@@ -14,7 +14,7 @@ const Home = () => {
                 {/*    This is Lyne's personal website, now let's find something interesting.*/}
                 {/*</Typist>*/}
             </div>
-            <div className="row justify-content-start">
+            <div className="row justify-content-start cards">
                 <Link to="./blog" className="col-sm-3 card" style={{ textDecoration: 'none', color: 'white'}}>
                     <div className="card-body">
                         <h5 className="card-title">Blog</h5>
@@ -24,7 +24,7 @@ const Home = () => {
                 <Link to="./tools" className="col-sm-3 card" style={{ textDecoration: 'none', color: 'white'}}>
                     <div className="card-body">
                         <h5 className="card-title">Tools</h5>
-                        <p className="card-text">试一试好玩的东西</p>
+                        <p className="card-text">一些小玩意</p>
                     </div>
                 </Link>
                 <Link to="./about-me" className="col-sm-3 card" style={{ textDecoration: 'none', color: 'white'}}>

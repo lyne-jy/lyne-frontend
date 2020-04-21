@@ -46,19 +46,14 @@ class AboutMe extends Component {
                     <h1 className="about-me-text">
                         <Typist startDelay={1000}
                                 cursor={cursor}
-                                avgTypingDelay={150}
-                                stdTypingDelay={50}>
-                            <span>我，是一个CS准新生。</span>
-                            <Typist.Backspace count={6} delay={500}/>
-                            <span>开始学前端的鶸。</span>
-                            <Typist.Backspace count={8} delay={500}/>
-                            <Typist.Delay ms={2000} />
-                            <span>帅比。</span>
+                                avgTypingDelay={100}
+                                stdTypingDelay={100}>
+                            <span>简而言之，我是一个帅比。</span>
                             <Typist.Backspace count={12} delay={2000}/>
                             <span>嘻嘻</span>
                             <Typist.Backspace count={2} delay={500}/>
                         </Typist>
-                    </h1>`
+                    </h1>
                     <div>
                         <div className="contact-info-area">
                             <p className="text-center">Contact Me:</p>

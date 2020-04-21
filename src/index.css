@@ -1,13 +1,6 @@
-@font-face {
-  font-family: "Song";
-  src: url("./fonts/NotoSerifSC-Regular.otf");
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   margin: 0;
-  font-family: "Songti SC", "Song", "Times New Roman", "STSong", Serif;
+  font-family: "Songti SC", -apple-system, "Palatino Linotype", "STSong", "dengxian", Serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: white;
@@ -142,7 +135,8 @@ a:hover{
 }
 
 .icons{
-  padding: 4px 5px 5px 0;
+  margin-top: 1px;
+  padding: 5px;
 }
 
 .filter-bar-closed{
@@ -248,7 +242,7 @@ a:hover{
 .button-detail{
   background: white;
   height: 25px;
-  padding: 3px;
+  padding: 2px 5px 5px 5px;
   color:  #555555;
   border: solid #555555 1px;
   border-radius: 5px;
@@ -336,14 +330,6 @@ a:hover{
   border-radius: 5px;
 }
 
-.navbar-brand{
-  font-family: "Times New Roman";
-  font-weight: bold;
-  padding: 0 0.4em;
-  background: black;
-  color: white;
-}
-
 .detail-label-bar{
   display: flex;
 }
@@ -404,7 +390,7 @@ a-icons a{
 
 .socialmedia-text{
   width: 90px;
-  padding: 0.4em 0.5em !important;
+  padding: 0.2em 0.5em !important;
   margin-left: 0.5em;
   border: #555555 solid 2px;
 }
@@ -430,6 +416,14 @@ a-icons a{
   border: lightgray solid 1px;
 }
 
+.logo{
+  height: 30px;
+}
+
+.navbar-brand{
+  padding-top: 0;
+}
+
 @media screen and (max-width: 800px) {
   #home-main .card:first-child{
     margin: 1em;
@@ -440,12 +434,8 @@ a-icons a{
   }
 
   .home-header h1{
-    font-size: 30px;
+    font-size: calc(100vw/13);
     padding: 20px
-  }
-
-  .tag{
-    padding-bottom: 4px;
   }
 
   .sidebar-area{
@@ -458,7 +448,7 @@ a-icons a{
 
   .about-me-text {
     text-align: center;
-    font-size: 24px;
+    font-size: calc(100vw/16);
     padding: 20px;
     padding-top: 20vh;
     height: 200px;

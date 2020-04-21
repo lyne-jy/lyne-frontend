@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactMarkdown from "react-markdown";
 import {Link} from "react-router-dom";
+import {FaTags, FaList, FaRegClock} from 'react-icons/fa'
 
 const BlogBody = (props) => {
     const {title, date, genre, tags, body, lastBlog, nextBlog} = props.blog;
@@ -10,12 +11,12 @@ const BlogBody = (props) => {
                 <h1 className="card-title">{title}</h1>
                 <div className="detail-label-bar">
                     <div className="d-flex detail-labels">
-                        <i className="fa fa-clock-o icons"/>
+                        <FaRegClock size={25} className="icons"/>
                         <p>时间:</p>
                         <p className="ml-1">{date.slice(0, 10)}</p>
                     </div>
                     <div className="d-flex detail-labels">
-                        <i className="fa fa-list icons"/>
+                        <FaList size={25} className="icons"/>
                         <p>分类:</p>
                         <button className="tag tag-genre"
                                 onClick={() => props.history.push({
@@ -25,7 +26,7 @@ const BlogBody = (props) => {
                         >{genre}</button>
                     </div>
                     <div className="d-flex detail-labels">
-                        <i className="fa fa-tags icons"/>
+                        <FaTags size={25} className="icons"/>
                         <p>标签:</p>
                         {tags.map(tag =>
                             <button className={`tag tag-${tag}`}

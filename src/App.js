@@ -13,6 +13,11 @@ import 'react-toastify/dist/ReactToastify.css'
 import './App.css';
 
 class App extends Component {
+
+    // componentDidMount() {
+    //     document.fonts.ready.then()
+    // }
+
     render() {
         return (
             <div className="App">

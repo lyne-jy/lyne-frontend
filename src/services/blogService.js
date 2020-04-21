@@ -1,6 +1,7 @@
 import http from "./httpService";
 
-const url = process.env.REACT_APP_API_URL + "/blogs/";
+// const url = process.env.REACT_APP_API_URL + "/blogs/";
+const url = 'http://192.168.1.100:4000/api/blogs/';
 
 export function getBlogs() {
     const blogs = http.get(url);

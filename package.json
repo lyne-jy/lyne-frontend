@@ -23,12 +23,8 @@
     "react-spring": "^8.0.27",
     "react-toastify": "^5.5.0",
     "react-transition-group": "^4.3.0",
-    "react-typewriter-hook": "^1.0.1",
-    "react-typing": "^1.0.0",
     "react-typist": "^2.0.5",
-    "react-use-typewriter": "^1.0.0-alpha.5",
-    "reactstrap": "^8.4.1",
-    "typewriter-effect": "^2.13.0"
+    "reactstrap": "^8.4.1"
   },
   "scripts": {
     "start": "react-scripts start",

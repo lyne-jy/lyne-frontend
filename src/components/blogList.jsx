@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import {FaList, FaTags} from "react-icons/fa";
 
 
 const BlogList = (props) => {
@@ -18,7 +19,7 @@ const BlogList = (props) => {
                     </Link>
                     <div>
                         <div className="d-flex blog-list-item-label">
-                            <i className="fa fa-list icons"/>
+                            <FaList size={25} className="icons"/>
                             <p className="tags-title">分类:</p>
                             <button
                                 type="button"
@@ -31,7 +32,7 @@ const BlogList = (props) => {
                             >{blog.genre}</button>
                         </div>
                         <div className="d-flex blog-list-item-label">
-                            <i className="fa fa-tags icons"/>
+                            <FaTags size={25} className="icons"/>
                             <p className="tags-title">标签:</p>
                             {blog.tags.map(tag =>
                                 (<button

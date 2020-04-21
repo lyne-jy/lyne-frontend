@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5286d85d-5b9b-4bb0-985d-17c555be7020" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/icons/logo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/aboutMe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aboutMe.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/blogBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blogBody.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/blogList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blogList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/NotoSerifSC-Regular.otf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/blogService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/blogService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/icons" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -37,6 +47,9 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/icons" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/fonts" />
       <recent name="$PROJECT_DIR$/public" />
@@ -83,7 +96,9 @@
       <workItem from="1586616666606" duration="1008000" />
       <workItem from="1586695330284" duration="128000" />
       <workItem from="1586919049158" duration="117124000" />
-      <workItem from="1587264944692" duration="5042000" />
+      <workItem from="1587264944692" duration="18608000" />
+      <workItem from="1587370208135" duration="303000" />
+      <workItem from="1587383549045" duration="8176000" />
     </task>
     <servers />
   </component>
@@ -131,14 +146,15 @@
       <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="133" y="201" key="run.anything.popup/0.23.1440.805@0.23.1440.805" timestamp="1587132751889" />
-    <state x="16" y="149" width="670" height="682" key="search.everywhere.popup" timestamp="1587271260876">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state x="16" y="149" width="670" height="681" key="search.everywhere.popup" timestamp="1587433697191">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state x="16" y="149" width="670" height="674" key="search.everywhere.popup/0.23.1440.800@0.23.1440.800" timestamp="1586173692604" />
     <state x="16" y="150" width="670" height="676" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1587262135807" />
-    <state x="16" y="149" width="670" height="679" key="search.everywhere.popup/0.23.1440.805@0.23.1440.805" timestamp="1587270230139" />
-    <state x="16" y="149" width="670" height="681" key="search.everywhere.popup/0.23.1440.807@0.23.1440.807" timestamp="1586493628509" />
-    <state x="16" y="149" width="670" height="682" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1587271260876" />
+    <state x="16" y="149" width="670" height="679" key="search.everywhere.popup/0.23.1440.805@0.23.1440.805" timestamp="1587300001710" />
+    <state x="16" y="149" width="670" height="681" key="search.everywhere.popup/0.23.1440.807@0.23.1440.807" timestamp="1587433697191" />
+    <state x="16" y="149" width="670" height="682" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1587287747161" />
+    <state x="16" y="149" width="670" height="684" key="search.everywhere.popup/0.23.1440.810@0.23.1440.810" timestamp="1587401418528" />
     <state x="16" y="160" width="670" height="740" key="search.everywhere.popup/1440.71.1024.693/0.23.1440.877@0.23.1440.877" timestamp="1586328147426" />
     <state x="16" y="149" width="670" height="671" key="search.everywhere.popup/1440.71.1024.745/0.23.1440.797@0.23.1440.797" timestamp="1585834831992" />
     <state x="16" y="149" width="670" height="674" key="search.everywhere.popup/1440.71.1024.745/0.23.1440.800@0.23.1440.800" timestamp="1586094971483" />
