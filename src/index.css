@@ -424,6 +424,16 @@ a-icons a{
   padding-top: 0;
 }
 
+#blog-body .detail-body a{
+  color: lightgray;
+  transition: 0.3s;
+}
+
+#blog-body .detail-body a:hover{
+  color: white;
+  background: #555555;
+}
+
 @media screen and (max-width: 800px) {
   #home-main .card:first-child{
     margin: 1em;

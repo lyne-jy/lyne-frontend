@@ -46,8 +46,8 @@ class AboutMe extends Component {
                     <h1 className="about-me-text">
                         <Typist startDelay={1000}
                                 cursor={cursor}
-                                avgTypingDelay={100}
-                                stdTypingDelay={100}>
+                                avgTypingDelay={200}
+                                stdTypingDelay={50}>
                             <span>简而言之，我是一个帅比。</span>
                             <Typist.Backspace count={12} delay={2000}/>
                             <span>嘻嘻</span>
