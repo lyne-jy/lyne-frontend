@@ -93,31 +93,31 @@ class AboutMe extends Component {
                         </Modal>
 
 
-                        <div className="socialmedia-info-area">
-                            <p className="text-center">Where to find me:</p>
+                    {/*    <div className="socialmedia-info-area">*/}
+                    {/*        <p className="text-center">Where to find me:</p>*/}
 
-                            <div className="d-flex justify-content-center">
-                                <div className="d-inline-flex flex-column">
-                                    <div className="socialmedia">
-                                        <div className="d-flex"><FaSteam size={40}/>
-                                            <p className="socialmedia-text">lyne_</p>
-                                        </div>
-                                    </div>
-                                    <div className='socialmedia'>
-                                        <div className="d-flex">
-                                            <FaInstagram size={40}/>
-                                            <p className="socialmedia-text"> lyne_play</p>
-                                        </div>
-                                    </div>
-                                    <div className='socialmedia'>
-                                        <div className="d-flex">
-                                            <NetEase className="netease"/>
-                                            <p className="socialmedia-text">Lyne_</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    {/*        <div className="d-flex justify-content-center">*/}
+                    {/*            <div className="d-inline-flex flex-column">*/}
+                    {/*                <div className="socialmedia">*/}
+                    {/*                    <div className="d-flex"><FaSteam size={40}/>*/}
+                    {/*                        <p className="socialmedia-text">lyne_</p>*/}
+                    {/*                    </div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className='socialmedia'>*/}
+                    {/*                    <div className="d-flex">*/}
+                    {/*                        <FaInstagram size={40}/>*/}
+                    {/*                        <p className="socialmedia-text"> lyne_play</p>*/}
+                    {/*                    </div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className='socialmedia'>*/}
+                    {/*                    <div className="d-flex">*/}
+                    {/*                        <NetEase className="netease"/>*/}
+                    {/*                        <p className="socialmedia-text">Lyne_</p>*/}
+                    {/*                    </div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
                     </div>
                 </div>
             </>

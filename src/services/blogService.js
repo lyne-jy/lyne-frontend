@@ -27,3 +27,6 @@ export function getTags(blogs) {
     return tagsObj;
 }
 
+export function postBlog(blog) {
+    return http.post(url, blog)
+}

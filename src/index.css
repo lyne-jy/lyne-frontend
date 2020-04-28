@@ -434,6 +434,14 @@ a-icons a{
   background: #555555;
 }
 
+textarea{
+  min-height: 8em;
+}
+
+#post-forms textarea{
+  min-height: 30em;
+}
+
 @media screen and (max-width: 800px) {
   #home-main .card:first-child{
     margin: 1em;

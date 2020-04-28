@@ -5,7 +5,7 @@ const NotFound = () => {
         <div className="container">
             <div className="jumbotron">
                 <h1 className="display-4">
-                    页面正在施工中...
+                    找不到页面啦...
                 </h1>
                 <p className="lead">
                     先去看看其他页面吧
